@@ -158,7 +158,7 @@ export default function PostForm({ post }) {
     
             <Button 
                 type="submit" 
-                bgColor={post ? "bg-green-500" : "bg-blue-500"} 
+                bgColor={post ? "bg-green-500" : " bg-[#DCC6AC]"} 
                 className="w-full"
                 disabled={isSubmitting}
             >
